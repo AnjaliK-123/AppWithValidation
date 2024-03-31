@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (valid) {
             const successMessage = document.getElementById('success-message');
-            successMessage.textContent = 'Form submitted successfully! Enjoy your pizza!';
+            successMessage.textContent = 'Accepted!';
             form.reset();
         }
     });
